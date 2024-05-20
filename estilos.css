@@ -55,6 +55,10 @@ main ul {
     text-align: left; /* Para manter os marcadores alinhados à esquerda */
 }
 
+main ul li {
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+}
+
 /* Estilos para o rodapé */
 footer {
     background-color: #333;
