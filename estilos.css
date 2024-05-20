@@ -76,6 +76,7 @@ body {
     background-image: url('https://i.ibb.co/HFgXNRQ/Dn7-Q6v4-les-paul-guitar-wallpaper.png');
     background-size: cover;
     background-position: unset;
+    background-repeat: no-repeat;
     color: #fff;
     margin: 0;
     padding: 0;
