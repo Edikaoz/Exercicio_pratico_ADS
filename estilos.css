@@ -48,12 +48,11 @@ main p {
 }
 
 main ul {
-    text-align: left;
     list-style-type: disc;
-    margin-left: 20px;
     margin: 0 auto;
     padding: 0;
-
+    display: inline-block;
+    text-align: left; /* Para manter os marcadores alinhados à esquerda */
 }
 
 /* Estilos para o rodapé */
