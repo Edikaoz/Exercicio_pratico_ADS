@@ -1,1 +1,74 @@
+/* Estilos globais */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h2 {
+    margin-bottom: 10px;
+}
+
+main p {
+    margin-bottom: 20px;
+}
+
+main ul {
+    text-align: center;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: smaller;
+}
+
+/* Estilo de fundo para o corpo do documento */
+body {
+    background-image: url('https://i.ibb.co/HFgXNRQ/Dn7-Q6v4-les-paul-guitar-wallpaper.png');
+    background-size: cover;
+    background-position: unset;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
 
