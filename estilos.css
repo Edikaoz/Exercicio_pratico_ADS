@@ -1,6 +1,9 @@
 /* Estilos globais */
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing:border-box; /* Inclui padding e bordas no tamanho total dos elementos */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
 }
 
 /* Estilos para o cabeçalho */
@@ -21,7 +24,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
 }
 
@@ -45,9 +48,12 @@ main p {
 }
 
 main ul {
-    text-align: center;
+    text-align: left;
     list-style-type: disc;
     margin-left: 20px;
+    margin: 0 auto;
+    padding: 0;
+
 }
 
 /* Estilos para o rodapé */
